@@ -1,4 +1,4 @@
-import{ useRef } from "react";
+import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -47,7 +47,7 @@ const setupTextHover = (container, type) => {
 
   const handleMouseLeave = () => letters.forEach((letter) => animateLetters(letter, base, 0.3));
 
-  container.addEventListner("mousemove", handleMouseMove);
+  container.addEventListener("mousemove", handleMouseMove);
   container.addEventListener("mouseleave", handleMouseLeave);
 
   return () => {
