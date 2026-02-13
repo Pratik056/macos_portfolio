@@ -1,10 +1,10 @@
 import useWindowStore from "#store/Window"
 
 const WindowControls = ({ target }) => {
-    const { closeWindow } = useWindowStore();
+  const { closeWindow } = useWindowStore();
   return (
     <div id="window-controls">
-        <div className="close" onClick={closeWindow}/>
+        <div className="close" onClick={() => closeWindow(target)} />
         <div className="minimize" />
         <div className="maximize" />
     </div>
