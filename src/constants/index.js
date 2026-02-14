@@ -225,7 +225,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Pureland Handicraft Ecommerce website",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,7 +233,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Pureland Handicrafts.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -247,16 +247,16 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "purelandhandicrafts.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://purelandhandicrafts.com/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "pureland_handicrafts.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -266,10 +266,10 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "/images/figma.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://www.behance.net/gallery/243646593/Pureland-Handicraft-handicraft-artisan-ecommerce",
           position: "top-60 right-20",
         },
       ],
@@ -319,7 +319,7 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "/images/figma.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
@@ -372,7 +372,7 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "/images/figma.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
